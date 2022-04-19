@@ -1,0 +1,5 @@
+pkg b =
+	trait foo @a =
+		bar : (v : @a -> void)
+	;;
+;;

@@ -1,0 +1,14 @@
+bin bug =
+	a.myr
+	lib @/:b
+	lib @/:c
+;;
+
+lib b =
+	b.myr
+;;
+
+lib c =
+	c.myr
+	lib b
+;;

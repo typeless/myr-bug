@@ -1,0 +1,7 @@
+use b
+use c
+
+const main = {
+	var x : c.t(int)
+	b.bar(x)
+}

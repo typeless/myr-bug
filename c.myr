@@ -1,0 +1,17 @@
+use b
+
+pkg c =
+	impl b.foo t(@s)
+	type t(@s) = struct
+		s : @s
+	;;
+;;
+
+impl b.foo t(@s) =
+	bar = {v
+		f()
+	}
+;;
+
+generic f = {;
+}
